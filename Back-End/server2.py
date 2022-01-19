@@ -87,8 +87,8 @@ def sendmail(mail):
     pwd = newPwd()
     email = "Use " + "(" + pwd + ")" + " to sign in"
     server = smtplib.SMTP_SSL("smtp.gmail.com")
-    server.login("abdouelaaroub@gmail.com", "AbdouDUT05")
-    server.sendmail("abdouelaaroub@gmail.com", mail, email)
+    server.login("xxxx@gmail.com", "xxxxx")
+    server.sendmail("xxxx@gmail.com", mail, email)
     server.quit()
     print(email)
     return pwd
